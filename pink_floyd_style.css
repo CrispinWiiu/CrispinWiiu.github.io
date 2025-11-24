@@ -35,7 +35,6 @@ h1 {
     color: #222;
 }
 
-/* Imagem */
 .imagem-principal {
     width: 60%;
     display: block;
@@ -60,12 +59,10 @@ li:hover {
     text-shadow: 0 0 3px #F2DCE0, 0 0 5px #F26DAB;
 }
 
-/* Lista */
 ul {
     list-style: square;
 }
 
-/* Formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -93,7 +90,7 @@ div {
 
 button {
     background: #ff4081;
-    padding: 10px;
+    padding: 1rem;
     color: white;
     border: none;
     border-radius: 5px;
@@ -104,7 +101,6 @@ button:hover {
     background: #e83e70;
 }
 
-/* Tabela */
 table {
     width: 80%;
     margin: auto;
@@ -114,7 +110,7 @@ table {
 
 th, td {
     border: 1px solid #444;
-    padding: 10px;
+    padding: 1rem;
 }
 
 th {
@@ -124,4 +120,5 @@ th {
 
 footer p {
     margin: 20px 20px;
+
 }
