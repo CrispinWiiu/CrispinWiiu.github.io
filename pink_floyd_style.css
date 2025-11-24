@@ -1,4 +1,3 @@
-/* Formatação geral */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -121,4 +120,12 @@ th {
 footer p {
     margin: 20px 20px;
 
+}
+
+@media print
+{
+    .forms
+    {
+        display: none;
+    }
 }
